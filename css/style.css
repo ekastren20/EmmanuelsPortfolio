@@ -1,0 +1,147 @@
+body{
+    color: var(--Black);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: var(--white);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link{
+    color: var(--main-blue) !important;
+}
+
+.nav-link:hover{
+    color: var(--main-grey) !important;
+    border-bottom: 2px solid var(--main-grey);
+}
+
+.nav-link.active{
+    color: var(--main-blue) !important;
+    font-weight: bold;
+    border-bottom: 2px solid var(--main-blue);
+}
+
+.dropdown-menu{
+    background-color: var(--main-grey);
+}
+
+.dropdown-item{
+    color: var(--white);
+}
+
+.dropdown-item:hover{
+    background-color: var(--main-blue);
+    color: var(--white)
+}
+
+.hero{
+    min-height: 70vh;
+    background: var(--Primary-gradient);
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.heroSection{
+    justify-content: center;
+    align-items: center;
+}
+
+.heroImg{
+    width: 100%;
+    padding: 34px 40px;
+    padding-top: 90px;
+}
+
+@media (max-width: 1200px) {
+    .heroImg{
+        padding: 20px;
+        padding-top: 80px;
+    }
+}
+@media (max-width: 992px) {
+    .hero{
+        padding: 12px;
+        padding-top: 80px;
+    }
+}
+
+.sectionTitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin: 10px 0px;
+}
+
+.footer{
+    background: var(--Primary-gradient-rev);
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+/* md screen */
+@media (max-width: 991.98px) {
+    .footer{
+        padding: 30px 90px;
+    }
+}
+
+/* sm screen */
+@media (max-width: 767.98px) {
+    .footer{
+        padding: 30px 40px;
+    }
+}
+
+/* xs sm screen */
+@media (max-width: 575.98px) {
+    .footer{
+        padding: 30px 20px;
+    }
+}
+
+.footer p,.footer a,.footer h5{
+    margin: 6px auto;
+}
+
+.icon{
+    font-size: 20px;
+    color: var(--Gray-dark);
+}
+
+.btn-primary{
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{
+    background-color: var(--main-grey);
+    border-color: var(--main-grey);
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem #ac95cc80;
+}
+
+.card-title{
+    font-family:'Open Sans',sans-serif;
+}
+
+.card-text{
+    font-family:var(--font-family-normal);
+    font-size: var(--font-size-small);
+}

@@ -1,0 +1,44 @@
+:root{
+    /* Color */
+    --main-blue:#151A94;
+    --main-grey:#2c2b64;
+    /* Dark */
+    --Primary-dark:#0800D1;
+    --Success-dark:#08B226;
+    --Danger-dark:#B10068;
+    --Warning-dark:#E5410F;
+    --Secondary-dark:#A200DB;
+    --Gray-dark:#272727;
+    /* Regular */
+    --Primary:#6100E9;
+    --Secondary:#D600E9;
+    --Danger:#EE008D;
+    --Warning:#EE5F14;
+    --Success:#90F138;
+    --Gray:#C4C4C4;
+    --white:#FFFFFF;
+    /* Light */
+    --Primary-light:#995DF0;
+    --Secondary-light:#E988F1;
+    --Danger-light:#F183BE;
+    --Warning-light:#FF8E1F;
+    --Success-light:#C6F894;
+    --Gray-light:#767676;
+    /* Extra Light */
+    --Primary-extra-light:#EFE4FC;
+    --Secondary-extra-light:#FAE3FB;
+    --Danger-extra-light:#FBE1EF;
+    --Warning-extra-light:#FFF2E0;
+    --Success-extra-light:#F2FEE5;
+    --Gray-extra-light:#E0E0E0;
+    /* Gradient */
+    --Primary-gradient:linear-gradient(180deg, #151A94 0%, rgba(239, 228, 252, 0) 100%);
+    --Primary-gradient-rev:linear-gradient(180deg, rgba(239, 228, 252, 0) 0%, #151A94 100%);
+    
+    /* fot sizes */
+    --font-size-normal:1rem;
+    --font-size-small:0.875;
+
+    --font-family-normal:'Roboto', sans-serif;
+}
+
