@@ -59,9 +59,11 @@ body{
 }
 
 .heroImg{
-    width: 100%;
+    width: 100% 350px;
+    height: 350px;
     padding: 34px 40px;
     padding-top: 90px;
+    border-radius: 40%;
 }
 
 @media (max-width: 1200px) {
