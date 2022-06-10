@@ -64,6 +64,7 @@ body{
     padding: 34px 40px;
     padding-top: 90px;
     border-style: dashed;
+    border-top: dashed;
     border-width: 5px;
     border-color: white;
 }
@@ -88,6 +89,10 @@ body{
 
 .card{
     margin: 10px 0px;
+}
+
+.card2-title{
+    padding-top: 99px;
 }
 
 .footer{
@@ -141,7 +146,7 @@ body{
     box-shadow: 0 0 0 0.25rem #ac95cc80;
 }
 
-.card-title{
+.card-title,.card2-title{
     font-family:'Open Sans',sans-serif;
 }
 
