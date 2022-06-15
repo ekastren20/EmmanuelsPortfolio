@@ -82,6 +82,35 @@ body{
     }
 }
 
+.img-resize{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.img-resize2{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.space-top{
+    padding-bottom: 90px;
+}
+
+.space-bottom{
+    padding-top: 90px;
+}
+
+.space-head{
+    padding-bottom: 20px;
+}
+
+.space-p{
+    padding-bottom: 35px;
+}
+
 .sectionTitle{
     text-align: center;
     margin-bottom: 20px;
@@ -146,7 +175,15 @@ body{
     box-shadow: 0 0 0 0.25rem #ac95cc80;
 }
 
-.card-title,.card2-title{
+.card3-img-top{
+    padding-bottom: 77px;
+}
+
+.card3-title{
+    padding-bottom: 30px;
+}
+
+.card-title,.card2-title,.card3-title{
     font-family:'Open Sans',sans-serif;
 }
 
