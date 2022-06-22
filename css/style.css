@@ -69,6 +69,11 @@ body{
     border-color: white;
 }
 
+.glass{
+    width: 50%;
+    float: left;
+}
+
 @media (max-width: 1200px) {
     .heroImg{
         padding: 20px;
@@ -176,7 +181,7 @@ body{
 }
 
 .card3-img-top{
-    padding-bottom: 77px;
+    padding-bottom: 108px;
 }
 
 .card3-title{
