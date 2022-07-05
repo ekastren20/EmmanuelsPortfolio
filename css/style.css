@@ -195,3 +195,16 @@ body{
     font-family:var(--font-family-normal);
     font-size: var(--font-size-small);
 }
+
+.p-text{
+    font-family:var(--font-family-Monaco);
+    font-size:20px;
+}
+
+.font-cryllic {
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: bold;
+    font-weight: 550;
+    font-size: 20px;
+}
+
