@@ -32,8 +32,8 @@
     --Success-extra-light:#F2FEE5;
     --Gray-extra-light:#E0E0E0;
     /* Gradient */
-    --Primary-gradient:linear-gradient(180deg, #151A94 0%, rgba(239, 228, 252, 0) 100%);
-    --Primary-gradient-rev:linear-gradient(180deg, rgba(239, 228, 252, 0) 0%, #151A94 100%);
+    --Primary-gradient:linear-gradient(180deg, #28282e 0%, rgba(239, 228, 252, 0) 100%);
+    --Primary-gradient-rev:linear-gradient(180deg, rgba(239, 228, 252, 0) 0%, #28282e 100%);
     
     /* fot sizes */
     --font-size-normal:1rem;
