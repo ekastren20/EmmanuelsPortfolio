@@ -221,3 +221,18 @@ body{
     font-size: 75px;
     color: var(--main-blue);
 }
+
+.header1{
+    display: block;
+    font-family: "cronos-pro", sans-serif;
+    font-size: 32px;
+    color: var(--main-blue);
+}
+
+.header2{
+    display: block;
+    font-family: "cronos-pro", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--main-blue);
+}
