@@ -96,6 +96,10 @@ body{
     object-fit: cover;
 }
 
+.img-background{
+    background-color: var(--main-blue);
+}
+
 .space-top{
     padding-bottom: 90px;
 }
@@ -193,13 +197,14 @@ body{
 }
 
 .card-text{
-    font-family:var(--font-family-normal);
+    font-family: var(--font-family-normal);
     font-size: var(--font-size-small);
 }
 
 .p-text{
-    font-family:var(--font-family-Monaco);
-    font-size:20px;
+    font-family: var(--font-family-Monaco);
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .font-cryllic {
@@ -227,6 +232,7 @@ body{
     font-family: "cronos-pro", sans-serif;
     font-size: 32px;
     color: var(--main-blue);
+    
 }
 
 .header2{
