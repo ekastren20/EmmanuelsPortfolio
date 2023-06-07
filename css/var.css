@@ -43,6 +43,15 @@
 
     --font-family-normal:'Roboto', sans-serif;
     --font-family-Monaco:'Monaco', sans-serif;
+    
+    /* misc colors */
+
+    --ice-cold:#a0d2eb;
+    --dusty-white:#edf756;
+    --dark-sand:#a28089;
+    
+
+
 
 }
 

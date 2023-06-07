@@ -4,7 +4,7 @@ body{
 }
 
 .navbar{
-    background-color: var(--white);
+    background-color: var(--ice-cold);
     position: fixed;
     top: 0;
     right: 0;
@@ -47,7 +47,7 @@ body{
 
 .hero{
     min-height: 70vh;
-    background: var(--Primary-gradient);
+    background: var(--dark-sand);
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -130,7 +130,7 @@ body{
 }
 
 .footer{
-    background: var(--Primary-gradient-rev);
+    background: var(--ice-cold);
     text-align: center;
     padding: 30px;
     margin-top: 60px;
