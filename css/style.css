@@ -4,7 +4,7 @@ body{
 }
 
 .navbar{
-    background-color: var(--ice-cold);
+    background-color: var(--white);
     position: fixed;
     top: 0;
     right: 0;
@@ -126,11 +126,15 @@ body{
 }
 
 .card2-title{
-    padding-top: 99px;
+    padding-top: 199px;
+}
+
+.card3-title{
+    padding-top: 1px;
 }
 
 .footer{
-    background: var(--ice-cold);
+    background: var(--dark-sand);
     text-align: center;
     padding: 30px;
     margin-top: 60px;
@@ -181,15 +185,15 @@ body{
 }
 
 .card2-img-top{
-    padding-bottom: 14px;
+    padding-bottom: 154px;
 }
 
 .card3-img-top{
-    padding-bottom: 175px;
+    padding-bottom: 1px;
 }
 
 .card3-title{
-    padding-bottom: 30px;
+    padding-bottom: 14px;
 }
 
 .card-title,.card2-title,.card3-title{
