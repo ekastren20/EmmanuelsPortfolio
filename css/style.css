@@ -187,8 +187,8 @@ body{
 }
 
 .btn-primary{
-    background-color: var(--main-blue);
-    border-color: var(--main-blue);
+    background-color: var(--dark-sand);
+    border-color: var(--white);
 }
 
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active{
@@ -198,6 +198,10 @@ body{
 
 .btn-primary:focus{
     box-shadow: 0 0 0 0.25rem #ac95cc80;
+}
+
+.card-padding{
+    padding-top: 199px;
 }
 
 .card2-img-top{
