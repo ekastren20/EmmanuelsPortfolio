@@ -150,7 +150,7 @@ body{
 }
 
 .footer{
-    background: var(--main-blue);
+    background: var(--white);
     text-align: center;
     padding: 30px;
     margin-top: 60px;
