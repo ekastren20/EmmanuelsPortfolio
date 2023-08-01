@@ -35,20 +35,21 @@
     --Primary-gradient:linear-gradient(180deg, #28282e 0%, rgba(239, 228, 252, 0) 100%);
     --Primary-gradient-rev:linear-gradient(180deg, rgba(239, 228, 252, 0) 0%, #28282e 100%);
     
-    /* fot sizes */
+    /* font sizes */
     --font-size-normal:1rem;
     --font-size-small:0.875;
     --font-size-medium:1.75;
     --font-size-large:2.2rem;
 
     --font-family-normal:'Roboto', sans-serif;
-    --font-family-Monaco:'Monaco', sans-serif;
-    
+    --font-family-Monaco:'Monaco', sans-serif;   
     /* misc colors */
 
     --ice-cold:#a0d2eb;
     --dusty-white:#edf756;
     --dark-sand:#a28089;
+
+
     
 
 

@@ -127,6 +127,7 @@ shadow{
 .sectionTitle{
     text-align: center;
     margin-bottom: 20px;
+    color: var()
 }
 
 
@@ -297,8 +298,11 @@ shadow{
 }
 
 .sectionTitle{
-    padding-bottom: 30px;
-    padding-top: 50px;
+    display: center;
+    font-family: "cronos-pro", sans-serif;
+    font-size: 28px;
+    color: var(--main-blue);
+    padding-top: 35px;
 }
 
 /* End Header Section*/
