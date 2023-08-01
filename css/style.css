@@ -224,7 +224,7 @@ shadow{
     max-width: 90%;
     max-height: 90%;
     padding-top: 84px;
-    padding-bottom: 71px;
+    padding-bottom: 87px;
 }
 
 .card3-title{
@@ -277,7 +277,9 @@ shadow{
 }
 
 /*Header Section*/
-
+.Hshadow{
+    text-shadow: 3px 3px;
+}
 .header1{
     display: block;
     font-family: "cronos-pro", sans-serif;
