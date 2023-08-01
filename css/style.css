@@ -3,6 +3,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+shadow{
+    text-shadow: 4px 4px;
+}
+
 .navbar{
     background-color: var(--white);
     position: fixed;
@@ -93,19 +97,6 @@ body{
     }
 }
 
-.img-resize{
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center center;
-}
-
-.img-resize2{
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-}
-
 .img-background{
     background-color: var(--main-blue);
 }
@@ -130,24 +121,15 @@ body{
     padding-top: 180px;
 }
 
-
-
+.padding-left{
+    padding-left: 40px;
+}
 .sectionTitle{
     text-align: center;
     margin-bottom: 20px;
 }
 
-.card{
-    margin: 10px 0px;
-}
 
-.card2-title{
-    padding-top: 219px;
-}
-
-.card3-title{
-    padding-top: 1px;
-}
 
 .footer{
     background: var(--white);
@@ -200,16 +182,40 @@ body{
     box-shadow: 0 0 0 0.25rem #ac95cc80;
 }
 
-.card-padding{
-    padding-top: 199px;
+/*CARD-SECTION*/
+
+.card{
+    margin: 10px 0px;
 }
 
-.card2-img-top{
-    padding-bottom: 154px;
+.card2-title{
+    padding-top: 219px;
+}
+
+.card3-title{
+    padding-top: 1px;
+}
+
+.card1-img{
+    max-width: 90%;
+    max-height: 90%;
+    padding-top: 100px;
+    padding-bottom: 232px;
+}
+
+
+.card2-img{
+    max-width: 90%;
+    max-height: 90%;
+    padding-top: 100px;
+    padding-bottom: 158px;
 }
 
 .card3-img-top{
-    padding-bottom: 1px;
+    max-width: 90%;
+    max-height: 90%;
+    padding-top: 100px;
+    padding-bottom: 77px;
 }
 
 .card3-title{
@@ -224,6 +230,8 @@ body{
     font-family: var(--font-family-normal);
     font-size: var(--font-size-small);
 }
+
+/*END CARD-SECTION*/
 
 .p-text{
     font-family: var(--font-family-Monaco);
@@ -307,4 +315,12 @@ body{
 
 .carousel__button--selected{
     background: rgb(255, 255, 255, 0.5);
+}
+
+.footer-text{
+    color: var(--main-blue);
+    font-family: "cronos-pro", sans-serif;
+    font-style: bold;
+    font-weight: 550;
+    font-size: 20px;
 }
