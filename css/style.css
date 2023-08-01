@@ -102,7 +102,7 @@ shadow{
 }
 
 .space-top{
-    padding-bottom: 90px;
+    padding-bottom: 70px;
 }
 
 .space-bottom{
@@ -182,14 +182,23 @@ shadow{
     box-shadow: 0 0 0 0.25rem #ac95cc80;
 }
 
-/*CARD-SECTION*/
+/*Card Section*/
+.wholecard{
+    padding-bottom: 50px;
+}
+
+.card-bottom{
+    padding-bottom: 75px;
+}
 
 .card{
+    max-width: 98%;
+    max-height: 98%;
     margin: 10px 0px;
 }
 
 .card2-title{
-    padding-top: 219px;
+    padding-top: 40px;
 }
 
 .card3-title{
@@ -197,25 +206,25 @@ shadow{
 }
 
 .card1-img{
-    max-width: 90%;
-    max-height: 90%;
-    padding-top: 100px;
-    padding-bottom: 232px;
+    max-width: 95%;
+    max-height: 95%;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 
 .card2-img{
-    max-width: 90%;
-    max-height: 90%;
-    padding-top: 100px;
-    padding-bottom: 158px;
+    max-width: 95%;
+    max-height: 95%;
+    padding-top: 85px;
+    padding-bottom: 30px;
 }
 
 .card3-img-top{
     max-width: 90%;
     max-height: 90%;
-    padding-top: 100px;
-    padding-bottom: 77px;
+    padding-top: 84px;
+    padding-bottom: 71px;
 }
 
 .card3-title{
@@ -229,6 +238,14 @@ shadow{
 .card-text{
     font-family: var(--font-family-normal);
     font-size: var(--font-size-small);
+}
+
+.paddingrightc2{
+    padding-right: 20px;
+}
+
+.paddingrightc1{
+    padding-right: 20px;
 }
 
 /*END CARD-SECTION*/
@@ -259,6 +276,8 @@ shadow{
     color: var(--main-blue);
 }
 
+/*Header Section*/
+
 .header1{
     display: block;
     font-family: "cronos-pro", sans-serif;
@@ -275,6 +294,12 @@ shadow{
     color: var(--main-blue);
 }
 
+.sectionTitle{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+/* End Header Section*/
 .carousel{
     position: relative;
 }
