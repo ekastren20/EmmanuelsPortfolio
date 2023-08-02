@@ -119,7 +119,12 @@ shadow{
     padding-top: 50px;
 }
 
+.space-bottom3{
+    padding-top: 20px;
+}
+
 .space-head{
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -219,23 +224,23 @@ shadow{
 .card1-img{
     max-width: 95%;
     max-height: 95%;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 
 
 .card2-img{
     max-width: 95%;
     max-height: 95%;
-    padding-top: 85px;
-    padding-bottom: 30px;
+    padding-top: 76px;
+    padding-bottom: 85px;
 }
 
 .card3-img-top{
     max-width: 90%;
     max-height: 90%;
-    padding-top: 84px;
-    padding-bottom: 87px;
+    padding-top: 54px;
+    padding-bottom: 60px;
 }
 
 .card3-title{
@@ -288,9 +293,7 @@ shadow{
 }
 
 /*Header Section*/
-.Hshadow{
-    text-shadow: 3px 3px;
-}
+
 .header1{
     display: block;
     font-family: "cronos-pro", sans-serif;
