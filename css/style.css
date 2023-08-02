@@ -101,12 +101,22 @@ shadow{
     background-color: var(--main-blue);
 }
 
+/*space*/
+
 .space-top{
     padding-bottom: 70px;
 }
 
+.space-top2{
+    padding-bottom: 40px;
+}
+
 .space-bottom{
     padding-top: 90px;
+}
+
+.space-bottom2{
+    padding-top: 50px;
 }
 
 .space-head{
@@ -114,7 +124,7 @@ shadow{
 }
 
 .space-p{
-    padding-bottom: 35px;
+    padding-bottom: 25px;
 }
 
 .create-space-top{
@@ -302,6 +312,14 @@ shadow{
     font-family: "cronos-pro", sans-serif;
     font-size: 28px;
     color: var(--main-blue);
+    padding-top: 35px;
+}
+
+.sectionTitle2{
+    display: center;
+    font-family: "cronos-pro", sans-serif;
+    font-size: 28px;
+    color: var(--white);
     padding-top: 35px;
 }
 
