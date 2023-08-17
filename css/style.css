@@ -299,6 +299,7 @@ shadow{
     font-family: "cronos-pro", sans-serif;
     font-size: 32px;
     color: var(--main-blue);
+    padding-top: 32px;
     
 }
 
