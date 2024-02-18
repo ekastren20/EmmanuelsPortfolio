@@ -51,7 +51,7 @@ shadow{
 
 .hero{
     min-height: 70vh;
-    background: var(--main-blue);
+    background: black;
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -76,7 +76,7 @@ shadow{
 }
 
 .background{
-    background-color: var(--dark-sand);
+    background-color: var(--white);
 }
 
 .glass{
@@ -142,7 +142,7 @@ shadow{
 .sectionTitle{
     text-align: center;
     margin-bottom: 20px;
-    color: var()
+    color: black;
 }
 
 
@@ -184,9 +184,21 @@ shadow{
     color: var(--Gray-dark);
 }
 
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover .btn {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+  }
+  
 .btn-primary{
-    background-color: var(--dark-sand);
-    border-color: var(--white);
+    background-color: black;
+    /* border-color: var(--white); */
 }
 
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active{
@@ -298,7 +310,7 @@ shadow{
     display: block;
     font-family: "cronos-pro", sans-serif;
     font-size: 32px;
-    color: var(--main-blue);
+    color: black;
     padding-top: 32px;
     
 }
