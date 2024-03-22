@@ -41,18 +41,14 @@
     --font-size-medium:1.75;
     --font-size-large:2.2rem;
 
-    --font-family-normal:'Roboto', sans-serif;
-    --font-family-Monaco:'Monaco', sans-serif;   
+    --font-family-normal:'Madimi One', sans-serif;
+    --font-family-Monaco:'Madimi One', sans-serif;   
+    --font-family-Menlo:'Madimi One', sans-serif;
     /* misc colors */
 
     --ice-cold:#a0d2eb;
     --dusty-white:#edf756;
     --dark-sand:#a28089;
-
-
-    
-
-
 
 }
 
