@@ -76,7 +76,7 @@ shadow{
 .heroSection{
     justify-content: center;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .heroImg{
@@ -296,7 +296,6 @@ shadow{
 /*END CARD-SECTION*/
 
 .p-text{
-    font-family: ;
     font-size: 15px;
     font-weight: 300;
 }
@@ -368,7 +367,6 @@ shadow{
     font-family: 'Madimi One', sans-serif;
     font-size: 28px;
     color: var(--white);
-    padding-top: 35px;
 }
 
 /* End Header Section*/
@@ -420,4 +418,10 @@ shadow{
     font-style: bold;
     font-weight: 550;
     font-size: 13px;
+}
+
+.em-word{
+    font-family: 'Madimi One', sans-serif;
+    font-size:40px;
+    color: var(--main-blue);
 }
