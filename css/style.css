@@ -7,6 +7,18 @@ shadow{
     text-shadow: 4px 4px;
 }
 
+h1{
+    font-family:'Madimi One', sans-serif;
+}
+
+h2{
+    font-family:'Madimi One', sans-serif;
+}
+
+h3{
+    font-family:'Madimi One', sans-serif;
+}
+
 .navbar{
     background-color: var(--white);
     position: fixed;
@@ -78,6 +90,21 @@ shadow{
     align-items: center;
     padding-bottom: 30px;
 }
+
+.heroSectionimages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Vertically center the images */
+    max-width: 100%; /* Ensure the container does not exceed the width of its parent */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.heroSectionimages img {
+    max-width: 100%; /* Limit the maximum width of the images to their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+}
+
+
 
 .heroImg{
     width: 100%;
@@ -306,8 +333,10 @@ shadow{
 /*END CARD-SECTION*/
 
 .p-text{
+    font-family:'Madimi One', sans-serif;
     font-size: 15px;
     font-weight: 300;
+    line-height: 1.6rem;
 }
 
 /*Fonts*/
