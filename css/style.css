@@ -85,12 +85,10 @@ h3{
 
 .hero{
     min-height: 70vh;
-    background-image:url(/img/CaseStudies/Adept/Community_black&white.png);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    padding-top: 70px;
 }
 
 .hero2{
