@@ -65,6 +65,24 @@ h3{
     color: var(--white)
 }
 
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  .img-fluid {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+
 .hero{
     min-height: 70vh;
     background-image:url(/img/CaseStudies/Adept/Community_black&white.png);
