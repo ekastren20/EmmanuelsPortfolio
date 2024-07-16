@@ -19,6 +19,29 @@
       display: block;
       margin: center;
     }
+
+    .container {
+            display: flex;
+            width: 100%;
+        }
+
+        .col-8 {
+            flex: 2; /* 2 parts out of a total of 3 */
+        }
+
+        .col-4 {
+            flex: 1; /* 1 part out of a total of 3 */
+        }
+
+        .flex {
+            display: flex;
+            align-items: center; /* Optional: to vertically center the text */
+        }
+
+        p {
+            margin: 0; /* Remove default margin from paragraphs */
+            padding: 0; /* Remove default padding from paragraphs */
+        }
   </style>
   <body style="background: var(white);">
     <!-- Navigation -->
@@ -64,15 +87,24 @@
               </div>
               <div class="col-lg-7 col-md-9 col-xxl-5">
                   <h3 class="text-center text-md-start header1";><b>Emmanuel Kastrenakes</b></h3>
-                   <p class="subheader"> <i>UX/UI Designer and Practicing Developer</i></p>
+                   <p class="subheader"> <i>Developer</i></p>
                    <p class="subheader"> <i>Tampa, Florida</i></p>
               </div>
           </div>
         </div>
       
+        <div class="container">
+          <div class="flex col-6">
+              <p style="color: black;" class="subheader">UXUI Bootcamp Projects</p>
+          </div>
+          <div class="flex col-4">
+              <p style="color: black;" class="subheader">Developer Work</p>
+          </div>
+      </div>
+
 <!-- Project Section (Start) -->
 <!-- cards were at col-md-6 col-lg-3 (for 4 project slides)-->
-<div class="background">
+<div>
       <div class="container mt-5">
           <div class="row">
               <!-- project card 1 start-->
@@ -126,6 +158,5 @@
 
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-   
   </body>
 </html>
