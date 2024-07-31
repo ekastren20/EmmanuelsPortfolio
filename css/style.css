@@ -26,6 +26,7 @@ h3{
     right: 0;
     left: 0;
     z-index: 1030;
+    border-bottom: 2px solid var(--main-grey);
 }
 
 .nav-item{
@@ -220,8 +221,6 @@ h3{
     color: black;
 }
 
-
-
 .footer{
     background: var(--white);
     text-align: center;
@@ -303,6 +302,7 @@ h3{
 
 .card2-title{
     padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .card3-title{
@@ -391,7 +391,7 @@ h3{
     display: block;
     font-family: 'Madimi One', sans-serif;
     font-size: 40px;
-    color: white;
+    color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     padding-top: 32px;
@@ -402,7 +402,7 @@ h3{
     display: block;
     font-family: 'Madimi One', sans-serif;
     font-size: 20px;
-    color: white;
+    color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
