@@ -94,7 +94,6 @@ h3{
 
 .hero2{
     min-height: 70vh;
-    background-color: black;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -370,9 +369,15 @@ h3{
     font-size: 20px;
 }
 
+.Raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+  }
 
 .font-gotham{
-    font-family: "cronos-pro", Sans-serif;
+    font-family: "Raleway", Sans-serif;
     font-size: 1.1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -486,4 +491,9 @@ h3{
     font-family: 'Madimi One', sans-serif;
     font-size:40px;
     color: var(--main-blue);
+}
+
+.imgCardDims{
+  
+    object-fit: cover;
 }
