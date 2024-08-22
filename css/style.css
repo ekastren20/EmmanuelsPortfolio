@@ -104,8 +104,7 @@ h3{
 .heroSection{
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .heroSectionimages {
@@ -355,7 +354,7 @@ h3{
 
 .p-text{
     font-family:'Madimi One', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.6rem;
 }
@@ -383,11 +382,14 @@ h3{
     line-height: 1.5em;
 }
 
-
-
 .arrow{
     font-size: 60px;
     color: var(--white);
+    padding-bottom: 15px;
+}
+
+.arrow:hover {
+    color: var(--main-blue);
 }
 
 /*Header Section*/
@@ -396,9 +398,6 @@ h3{
     display: block;
     font-family: 'Madimi One', sans-serif;
     font-size: 40px;
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     padding-top: 32px;
     
 }
