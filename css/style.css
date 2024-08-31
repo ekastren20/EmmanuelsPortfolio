@@ -292,6 +292,10 @@ h3{
     padding-bottom: 75px;
 }
 
+.card-border{
+    border: 4px solid black;
+}
+
 .card{
     max-width: 98%;
     max-height: 98%;
