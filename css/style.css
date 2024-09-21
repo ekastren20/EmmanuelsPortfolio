@@ -255,33 +255,42 @@ h3{
     font-size: 20px;
     color: var(--Gray-dark);
 }
-
-.card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transform: scale(1.05);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-  }
-  
-  .card:hover .btn {
-    background-color: #ffffff;
-    color: #000000;
-    border-color: #000000;
-  }
   
 .btn-primary{
     background-color: black;
     font-family: 'Madimi One', sans-serif;
     /* border-color: var(--white); */
+    
 }
 
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active{
     background-color: var(--main-grey);
     border-color: var(--main-grey);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .btn-primary:focus{
     box-shadow: 0 0 0 0.25rem #ac95cc80;
 }
+
+.three-column-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  
+  .column {
+    
+    flex: 3;
+    height: 60px;
+    
+    /* Optional: To add some visual separation between columns */
+    border: 1px solid var(--main-blue);
+    box-sizing: border-box;
+  }
+  
 
 /*Card Section*/
 .wholecard{
@@ -407,9 +416,10 @@ h3{
 }
 
 .subheader{
+    line-height: 40px;
     display: block;
     font-family: 'Madimi One', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -422,6 +432,15 @@ h3{
     font-weight: 400;
     color: var(--main-blue);
 }
+
+.header3{
+    display: block;
+    font-family: 'Madimi One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
 
 .sectionTitle{
     display: center;
