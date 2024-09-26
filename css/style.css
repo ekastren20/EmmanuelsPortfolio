@@ -395,6 +395,10 @@ h3{
     line-height: 1.5em;
 }
 
+.nodeco{
+    text-decoration: none;
+}
+
 .arrow{
     font-size: 60px;
     color: var(--white);
