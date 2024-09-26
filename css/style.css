@@ -421,14 +421,16 @@ h3{
 }
 
 .subheader{
-    padding-top: 35px;
+    padding: 20px;
     line-height: 35px;
     display: block;
     font-family: 'Madimi One', sans-serif;
     font-size: 23px;
-    color: black;
+    color: white;
+    background-color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    border: solid 4px var(--main-blue);
 }
 
 .header2{
