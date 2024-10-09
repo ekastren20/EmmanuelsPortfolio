@@ -406,17 +406,25 @@ h3{
     padding-bottom: 15px;
 }
 
-.arrow:hover {
-    color: var(--main-blue);
+.arrow:hover,.arrow:focus,.arrow:active{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 /*Header Section*/
 
 .header1{
+    padding: 20px;
+    line-height: 35px;
     display: block;
     font-family: 'Madimi One', sans-serif;
-    font-size: 40px;
-    padding-top: 32px;
+    font-size: 23px;
+    color: white;
+    background-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border: solid 4px var(--main-blue);
     
 }
 
