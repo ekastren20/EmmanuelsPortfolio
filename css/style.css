@@ -101,10 +101,16 @@ h3{
     padding-top: 70px;
 }
 
-.heroSection{
+.heroSectionMain{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+}
+
+.heroSection{
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
 
 .heroSectionimages {
