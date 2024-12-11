@@ -474,7 +474,8 @@ h3{
 }
 
 .sectionTitle2{
-    display: center;
+    display: flex;
+    justify-content: center;
     font-family: 'Madimi One', sans-serif;
     font-size: 28px;
     color: var(--white);
