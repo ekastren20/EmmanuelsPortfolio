@@ -560,14 +560,6 @@ h1 {
 
 /*Custom Classes*/
 
-.heroSubaru {
-    background: url('/img/SubaruCrossTrek/crosstrek6.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
-
 .hero-alt {
     background: url('./images/landing-page-images/crosstrek2.png') no-repeat center center;
     color: white;
