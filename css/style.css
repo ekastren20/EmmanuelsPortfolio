@@ -561,7 +561,7 @@ h1 {
 /*Custom Classes*/
 
 .heroSubaru {
-    background: url('./images/landing-page-images/crosstrek6.jpg') no-repeat center center;
+    background: url('/img/SubaruCrossTrek/crosstrek6.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
