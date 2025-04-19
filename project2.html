@@ -189,7 +189,8 @@
           <h3 class="sectionTitle2"><b>Adding the Theme</b></h3>
           <p class="p-text">I found a dark navy blue color to match the company's color scheme, this would be labeled "main-blue" in the CSS.
             I applied a blue gradient to the already created gradient, and added the main-blue to buttons, headers and table lines. A light
-            blue background was added to accompany the darker user interface.
+            blue background was added to accompany the darker user interface. Since I knew the home page would be a listed table, I created
+            a striped table using customized CSS. Later, this table would be refined using Blazor Bootstrap.
           </p>
         </div>
       </div>
@@ -201,11 +202,12 @@
           <img src="./img/CaseStudies/MAFFLEX.PORTFOLIO/MAFMAIN1.markup.png" alt="ProtoPersona Chart" class="heroImg">
         </div>
         <div class="col me-5">
-          <h3 class="sectionTitle2"><b>Home Page Results</b></h3>
-          <p class="p-text">The home page displays the most important information initially: all applications and relevant information. 
+          <h3 class="sectionTitle2"><b>Home Page</b></h3>
+          <p class="p-text">
             As the developers added data pulling and C# code, I worked alongside with them to create a properly functioning interface.
             This included adding a filters bar, search bar and pagination. Challenges included creating a color scheme for the different application
-            statuses, and creating a max number of applications to display.
+            statuses, and creating a max number of applications to display. We constantly were working to get everything fit onto the page without
+            scrolling.
           </p>
         </div>
       </div>
@@ -217,9 +219,26 @@
           <img src="./img/CaseStudies/MAFFLEX.PORTFOLIO/New Application w tabs and buttons.png" alt="ProtoPersona Chart" class="heroImg">
         </div>
         <div class="col me-5">  
-          <h3 class="sectionTitle2"><b>Application Page Results</b></h3> 
-          <p class="p-text">The second most important page is the "New Application" page, where users can create a new application with
-            neccessary information like address, contact information and employment history.
+          <h3 class="sectionTitle2"><b>New Application Page</b></h3> 
+          <p class="p-text">The second tab is the "New Application" page, where users can create a new application with
+            neccessary information like address, contact information and employment history. Something I had fun with here is adding the themed
+            gradient to the header of each section. A few sections on this page required tab use. It was discovered that tabs can be created
+            through Blazor Bootstrap.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+      <div class="row heroSection">
+        <div class="col d-flex justify-content-center">
+          <img src="./img/CaseStudies/MAFFLEX.PORTFOLIO/Creating Tabs Code.png" alt="ProtoPersona Chart" class="heroImg">
+        </div>
+        <div class="col me-5">
+          <h3 class="sectionTitle2"><b>Blazor Bootstrap</b></h3>
+          <p class="p-text">I found out quickly that understanding what was already given to us was extremely important. Blazor Bootstrap has
+            the ability to create components and place them into sections of a page. In this example, in the image on the left, you'll see I created
+            a tabbed component that contains separate components for both the applicant and co-applicant forms.
           </p>
         </div>
       </div>
@@ -247,44 +266,14 @@
         </div>
         <div class="col me-5">
           <h3 class="sectionTitle2"><b>Coding</b></h3>
-          <p class="p-text">From this template, the team and I created the first two navigations, a list of all the applications (customers), and a tab to create a new application.
-            These are the most important functions. I used blazorbootstrap to implement icons in the navbar and apply a gredient. Then, I used front end development to create the 
-            applications table with a "view" button.
+          <p class="p-text">For the most part, knowledge in HTML, CSS and some Javascript is enough to get by when making a Blazor application. However,
+            it took some time to grapple how the interface could be manipulated. For example, the image on the left displays
+            code that was created within backend (C#) to manipulate colors on a case by case basis.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="container d-flex justify-content-center">
-      <div class="row heroSection">
-        <div class="col d-flex justify-content-center">
-          <img src="./img/CaseStudies/MAFFLEX.PORTFOLIO/Creating Color Status.png" alt="ProtoPersona Chart" class="heroImg">
-        </div>
-        <div class="col me-5">
-          <h3 class="sectionTitle2"><b>Coding</b></h3>
-          <p class="p-text">From this template, the team and I created the first two navigations, a list of all the applications (customers), and a tab to create a new application.
-            These are the most important functions. I used blazorbootstrap to implement icons in the navbar and apply a gredient. Then, I used front end development to create the 
-            applications table with a "view" button.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-flex justify-content-center">
-      <div class="row heroSection">
-        <div class="col d-flex justify-content-center">
-          <img src="./img/CaseStudies/MAFFLEX.PORTFOLIO/Creating Tabs Code.png" alt="ProtoPersona Chart" class="heroImg">
-        </div>
-        <div class="col me-5">
-          <h3 class="sectionTitle2"><b>Coding</b></h3>
-          <p class="p-text">From this template, the team and I created the first two navigations, a list of all the applications (customers), and a tab to create a new application.
-            These are the most important functions. I used blazorbootstrap to implement icons in the navbar and apply a gredient. Then, I used front end development to create the 
-            applications table with a "view" button.
-          </p>
-        </div>
-      </div>
-    </div>
-    
     <div class="container d-flex justify-content-center">
       <div class="row heroSection">
         <div class="col d-flex justify-content-center">
@@ -292,9 +281,8 @@
         </div>
         <div class="col me-5">
           <h3 class="sectionTitle2"><b>CSS Isolation</b></h3>
-          <p class="p-text">From this template, the team and I created the first two navigations, a list of all the applications (customers), and a tab to create a new application.
-            These are the most important functions. I used blazorbootstrap to implement icons in the navbar and apply a gredient. Then, I used front end development to create the 
-            applications table with a "view" button.
+          <p class="p-text">Blazor provides the ability to have an all encompassing site css, and also css isolation which affects only one page or component.
+            In the example image on the left, you'll see button customization for one page using css isolation.
           </p>
         </div>
       </div>
@@ -307,24 +295,10 @@
         </div>
         <div class="col me-5">
           <h3 class="sectionTitle2"><b>Version Control</b></h3>
-          <p class="p-text">From this template, the team and I created the first two navigations, a list of all the applications (customers), and a tab to create a new application.
-            These are the most important functions. I used blazorbootstrap to implement icons in the navbar and apply a gredient. Then, I used front end development to create the 
-            applications table with a "view" button.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-flex justify-content-center">
-      <div class="row heroSection">
-        <div class="col d-flex justify-content-center">
-          <img src="./img/CaseStudies/MAFFLEX.PORTFOLIO/Deal Structure.png" alt="ProtoPersona Chart" class="heroImg">
-        </div>
-        <div class="col me-5">
-          <h3 class="sectionTitle2"><b>Creating Components</b></h3>
-          <p class="p-text">From this template, the team and I created the first two navigations, a list of all the applications (customers), and a tab to create a new application.
-            These are the most important functions. I used blazorbootstrap to implement icons in the navbar and apply a gredient. Then, I used front end development to create the 
-            applications table with a "view" button.
+          <p class="p-text">Working with other developers requires collaboration and proper version control when updating a project. Using Azure
+            and Visual Studio, I was able to make updates and remain on the same page as my team members. Every day I would pull in the latest to check
+            if any updates were made. And I would submit my work for review before pushing it to the main branch. Any conflicts would be resolved, as
+            you can see in the example image on the left.
           </p>
         </div>
       </div>
@@ -337,9 +311,10 @@
         </div>
         <div class="col me-5">
           <h3 class="sectionTitle2"><b>Best Practices</b></h3>
-          <p class="p-text">From this template, the team and I created the first two navigations, a list of all the applications (customers), and a tab to create a new application.
-            These are the most important functions. I used blazorbootstrap to implement icons in the navbar and apply a gredient. Then, I used front end development to create the 
-            applications table with a "view" button.
+          <p class="p-text">For each page or template I created, I would start from a macro view and then work my way inward. This would usually start on
+            a whiteboard, but once ideas were put to the screen, I'd create visible divs to give spatial awareness for my visualization. This
+            helped establish containers where information and functionality would go, and a framwork for responsiveness. In the example on the left,
+            you can see this being done for one of our pages.
           </p>
         </div>
       </div>
